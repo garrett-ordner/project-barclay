@@ -1,12 +1,21 @@
 % templates/template.tex
 \documentclass{book}
+%include the KJV bible in Latex form
+\include{../data/KJV.tex}
+
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage[a4paper]{geometry} % or [letterpaper] if needed
 \usepackage{subfiles}
+\usepackage{pgffor}
 
-% Add more packages and custom commands here
-\newcommand{\mycommand}[1]{\textbf{#1}}
+%Use this command to quote verses; you can change the type of quoting used in the book using the commands defined below.
+%Single verse
+\newcommand{\qVerse}[3]{\fnVerse{#1}{#2}{#3}}
+%Range
+\newcommand{\qRange}[4]{\fnRange{#1}{#2}{#3}{#4}}
 
-% Include title and author in individual chapter files
+%Footnote Bible References
+\newcommand{\fnVerse}[3]{\footnote{\getBibleText{#1}{#2}{#3}}}
+\newcommand{\fnRange}[4]{\footnote{\getBibleRange{#1}{#2}{#3}{#4}}}
