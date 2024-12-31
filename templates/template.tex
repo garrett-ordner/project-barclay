@@ -1,5 +1,5 @@
 % templates/template.tex
-\documentclass{book}
+\documentclass[openany]{book}
 %include the KJV bible in Latex form
 \include{../data/KJV.tex}
 
@@ -9,13 +9,23 @@
 \usepackage[a4paper]{geometry} % or [letterpaper] if needed
 \usepackage{subfiles}
 \usepackage{pgffor}
+\usepackage{endnotes}
+
+% Paragraph formatting
+\setlength{\parindent}{0pt} % Remove paragraph indentation
+\setlength{\parskip}{1em}   % Add space between paragraphs
+
 
 %Use this command to quote verses; you can change the type of quoting used in the book using the commands defined below.
 %Single verse
-\newcommand{\qVerse}[3]{\fnVerse{#1}{#2}{#3}}
+\newcommand{\qVerse}[3]{\enVerse{#1}{#2}{#3}}
 %Range
-\newcommand{\qRange}[4]{\fnRange{#1}{#2}{#3}{#4}}
+\newcommand{\qRange}[4]{\enRange{#1}{#2}{#3}{#4}}
 
 %Footnote Bible References
 \newcommand{\fnVerse}[3]{\footnote{\getBibleText{#1}{#2}{#3}}}
 \newcommand{\fnRange}[4]{\footnote{\getBibleRange{#1}{#2}{#3}{#4}}}
+
+%Endnote Bible References
+\newcommand{\enVerse}[3]{\endnote{\getBibleText{#1}{#2}{#3}}}
+\newcommand{\enRange}[4]{\endnote{\getBibleRange{#1}{#2}{#3}{#4}}}
