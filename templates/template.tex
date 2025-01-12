@@ -1,7 +1,6 @@
 % templates/template.tex
 \documentclass[openany]{book}
 
-
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -14,6 +13,20 @@
 \setlength{\parindent}{0pt} % Remove paragraph indentation
 \setlength{\parskip}{1em}   % Add space between paragraphs
 
+%commands to get bible verse
+\newcommand{\getBibleText}[3]{%
+	\ifcsname verse#1#2v#3\endcsname%
+	\csname verse#1#2v#3\endcsname%
+	\else%
+	[Verse not found: #1 #2:#3]%
+	\fi%
+}
+
+\newcommand{\getBibleRange}[4]{%
+	\foreach \v in {#3,...,#4} {%
+		\getBibleText{#1}{#2}{\v} %
+	}%
+}
 
 %Use this command to quote verses; you can change the type of quoting used in the book using the commands defined below.
 %Single verse
