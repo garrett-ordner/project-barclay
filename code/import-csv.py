@@ -2,8 +2,8 @@ import csv
 import os
 
 # Define file paths
-input_file = os.path.join("..", "bible", "KJV.csv")
-output_file = os.path.join("..", "data", "KJV.tex")
+input_file = os.path.join("..", "data", "KJV.csv")
+output_file = os.path.join("..", "bible", "KJV.tex")
 
 # Open the CSV file and read its contents
 with open(input_file, "r", encoding="utf-8") as csvfile:
