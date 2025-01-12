@@ -61,3 +61,6 @@
 *.lps
 *.lsg
 *.synctex
+
+# Endnote files
+*.ent
