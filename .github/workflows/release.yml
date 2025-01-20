@@ -18,18 +18,25 @@ jobs:
     # Step 2: Set up LaTeX environment
     - name: Set up LaTeX
       uses: dante-ev/latex-action@edge
+      with:
+        extra_system_packages: "texlive-latex-extra texlive-fonts-recommended"  # Add any necessary LaTeX packages
 
     # Step 3: Compile the LaTeX file
     - name: Compile LaTeX file
       run: |
-        pdflatex -output-directory=books/barclay-catechism books/barclay-catechism/main.tex
+        latexmk -f -pdf -latexoption=-file-line-error -latexoption=-interaction=nonstopmode books/barclay-catechism/main.tex
 
-    # Step 4: Rename the PDF
+    # Step 4: Display LaTeX log file
+    - name: Display LaTeX log
+      run: |
+        cat books/barclay-catechism/main.log
+
+    # Step 5: Rename the PDF
     - name: Rename PDF
       run: |
         mv books/barclay-catechism/main.pdf "Barclay's Catechism Thought-for-Thought.pdf"
 
-    # Step 5: Upload the PDF as a release asset
+    # Step 6: Create Release
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
@@ -41,6 +48,7 @@ jobs:
         body: |
           This release includes the compiled PDF of Barclay's Catechism.
 
+    # Step 7: Upload Release Asset
     - name: Upload Release Asset
       uses: actions/upload-release-asset@v1
       with:
