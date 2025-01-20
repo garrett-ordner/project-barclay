@@ -12,16 +12,16 @@ jobs:
     steps:
     # Step 1: Check out the repository
     - name: Check out code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     # Step 2: Set up LaTeX environment
     - name: Set up LaTeX
-      uses: dante-ev/latex-action@v2
+      uses: dante-ev/latex-action@edge
 
     # Step 3: Compile the LaTeX file
     - name: Compile LaTeX file
       run: |
-        pdflatex -output-directory=books/barclay-catechism books/barclay-catechism/main.tex
+        pdflatex -output-directory=books/barclay-catechism/main.pdf books/barclay-catechism/main.tex
 
     # Step 4: Rename the PDF
     - name: Rename PDF
