@@ -1,9 +1,10 @@
 name: Create PDF Release
 
 on:
-  push:
+  push: 
     tags:
       - 'v*' # Trigger the workflow on version tags (e.g., v1.0.0)
+  workflow_dispatch
 
 jobs:
   build-and-release:
@@ -21,7 +22,7 @@ jobs:
     # Step 3: Compile the LaTeX file
     - name: Compile LaTeX file
       run: |
-        pdflatex -output-directory=books/barclay-catechism/main.pdf books/barclay-catechism/main.tex
+        pdflatex -output-directory=books/barclay-catechism books/barclay-catechism/main.tex
 
     # Step 4: Rename the PDF
     - name: Rename PDF
