@@ -17,7 +17,7 @@ jobs:
 
     # Step 2: Set up LaTeX environment
     - name: Set up LaTeX
-      uses: dante-ev/latex-action@edge
+      uses: dante-ev/latex-action@v2
       with:
         extra_system_packages: "texlive-latex-extra texlive-fonts-recommended"  # Add any necessary LaTeX packages
 
