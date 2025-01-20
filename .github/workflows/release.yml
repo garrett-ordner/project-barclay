@@ -2,6 +2,7 @@ name: Create PDF Release
 
 on:
   push:
+    workflow_dispatch
     tags:
       - 'v*' # Trigger the workflow on version tags (e.g., v1.0.0)
 
