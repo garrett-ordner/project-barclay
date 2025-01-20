@@ -1,52 +1,76 @@
 \@doanenote {1}
 macro:->\getBibleText
-{Romans}{8}{9}
+{Deuteronomy}{18}{15}
 \@endanenote 
 \@doanenote {2}
 macro:->\getBibleText
-{Romans}{8}{14}
+{Isaiah}{7}{14}
 \@endanenote 
 \@doanenote {3}
 macro:->\getBibleText
-{IJohn}{2}{27}
+{Micah}{5}{2}
 \@endanenote 
 \@doanenote {4}
 macro:->\getBibleText
-{IThessalonians}{4}{9}
+{John}{8}{58}
 \@endanenote 
 \@doanenote {5}
-macro:->\getBibleRange
-{Hebrews}{8}{10}{11}
+macro:->\getBibleText
+{John}{17}{5}
 \@endanenote 
 \@doanenote {6}
 macro:->\getBibleText
-{John}{6}{45}
+{Ephesians}{3}{9}
 \@endanenote 
 \@doanenote {7}
-macro:->\getBibleRange
-{John}{14}{16}{17}
+macro:->\getBibleText
+{Colossians}{1}{16}
 \@endanenote 
 \@doanenote {8}
 macro:->\getBibleText
-{Romans}{15}{4}
+{Hebrews}{1}{2}
 \@endanenote 
 \@doanenote {9}
-macro:->\getBibleRange
-{IITimothy}{3}{15}{17}
+macro:->\getBibleText
+{John}{1}{1}
 \@endanenote 
 \@doanenote {10}
-macro:->\getBibleRange
-{IIPeter}{1}{20}{21}
+macro:->\getBibleText
+{Romans}{9}{5}
 \@endanenote 
 \@doanenote {11}
 macro:->\getBibleText
-{John}{5}{39}
+{Philippians}{2}{6}
 \@endanenote 
 \@doanenote {12}
-macro:->\getBibleRange
-{John}{5}{45}{47}
+macro:->\getBibleText
+{IJohn}{1}{20}
 \@endanenote 
 \@doanenote {13}
 macro:->\getBibleText
-{IIPeter}{3}{16}
+{Isaiah}{9}{6}
+\@endanenote 
+\@doanenote {14}
+macro:->\getBibleText
+{Colossians}{1}{15}
+\@endanenote 
+\@doanenote {15}
+macro:->\getBibleText
+{Hebrews}{1}{3}
+\@endanenote 
+\@doanenote {16}
+macro:->\getBibleText
+{RevelationofJohn}{19}{13}
+\@endanenote 
+\@doanenote {17}
+macro:->\getBibleText
+{Matthew}{1}{18}
+\@endanenote 
+\@doanenote {18}
+macro:->\getBibleRange
+{Luke}{1}{30}{32}
+\@endanenote 
+\@doanenote {19}
+macro:->\getBibleRange
+{Luke}{1}{34}{35}
 \@endanenote 
