@@ -63,3 +63,5 @@ jobs:
         asset_path: "Barclay's Catechism Thought-for-Thought.pdf"
         asset_name: "Barclay's Catechism Thought-for-Thought.pdf"
         asset_content_type: application/pdf
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Pass the token here
