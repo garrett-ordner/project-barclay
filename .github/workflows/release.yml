@@ -15,23 +15,33 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v4
 
-    # Step 2: Install LaTeX (Manually if needed)
+    # Step 2: Cache TeX Live installation
+    - name: Cache TeX Live
+      id: texlive-cache
+      uses: actions/cache@v3
+      with:
+        path: /usr/local/texlive
+        key: texlive-${{ runner.os }}-${{ hashFiles('**/books/barclay-catechism/main.tex') }}
+        restore-keys: texlive-${{ runner.os }}-
+
+    # Step 3: Install TeX Live if not cached
     - name: Install TeX Live
+      if: steps.texlive-cache.outputs.cache-hit != 'true'
       run: |
         sudo apt-get update
         sudo apt-get install -y texlive-full
 
-    # Step 3: Compile the LaTeX file
+    # Step 4: Compile the LaTeX file
     - name: Compile LaTeX file
       run: |
         pdflatex -output-directory=books/barclay-catechism books/barclay-catechism/main.tex
 
-    # Step 4: Rename the PDF
+    # Step 5: Rename the PDF
     - name: Rename PDF
       run: |
         mv books/barclay-catechism/main.pdf "Barclay's Catechism Thought-for-Thought.pdf"
 
-    # Step 5: Create Release
+    # Step 6: Create Release
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
@@ -43,7 +53,7 @@ jobs:
         body: |
           This release includes the compiled PDF of Barclay's Catechism.
 
-    # Step 6: Upload Release Asset
+    # Step 7: Upload Release Asset
     - name: Upload Release Asset
       uses: actions/upload-release-asset@v1
       with:
