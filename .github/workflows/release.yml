@@ -52,6 +52,7 @@ jobs:
         prerelease: false
         body: |
           This release includes the compiled PDF of Barclay's Catechism.
+        token: ${{ secrets.GITHUB_TOKEN }}  # Pass the token here
 
     # Step 7: Upload Release Asset
     - name: Upload Release Asset
