@@ -35,5 +35,5 @@ jobs:
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         prerelease: false
-        assets: |
+        files: |
           Barclay's Catechism Thought-for-Thought.pdf
