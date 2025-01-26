@@ -23,6 +23,11 @@ jobs:
           -w /workspace/books/barclay-catechism \
           texlive/texlive \
           pdflatex -interaction=nonstopmode main.tex
+        docker run --rm \
+          -v ${{ github.workspace }}:/workspace \
+          -w /workspace/books/barclay-catechism \
+          texlive/texlive \
+          pdflatex -interaction=nonstopmode main.tex
 
     # Step 3: Rename the PDF
     - name: Rename PDF
