@@ -29,27 +29,11 @@ jobs:
       run: |
         mv books/barclay-catechism/main.pdf "Barclay's Catechism Thought-for-Thought.pdf"
 
-    # Step 4: Create Release
-    - name: Create Release
-      id: create_release
-      uses: actions/create-release@v1
+    # Step 4: Create a Release and Upload the Asset
+    - name: Create Release and Upload Asset
+      uses: marvinpinto/action-automatic-releases@latest
       with:
-        tag_name: ${{ github.ref_name }} # Use the tag that triggered the workflow
-        release_name: "Release ${{ github.ref_name }}"
-        draft: false
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
         prerelease: false
-        body: |
-          This release includes the compiled PDF of Barclay's Catechism.
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Pass the token here
-
-    # Step 5: Upload Release Asset
-    - name: Upload Release Asset
-      uses: actions/upload-release-asset@v1
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: "Barclay's Catechism Thought-for-Thought.pdf"
-        asset_name: "Barclay's Catechism Thought-for-Thought.pdf"
-        asset_content_type: application/pdf
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Pass the token here
+        assets: |
+          Barclay's Catechism Thought-for-Thought.pdf
