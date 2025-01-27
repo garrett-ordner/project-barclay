@@ -4,5 +4,5 @@ macro:->\getBibleText
 \@endanenote 
 \@doanenote {2}
 macro:->\getBibleText
-{1}{John}{4}
+{IJohn}{4}{9}
 \@endanenote 
