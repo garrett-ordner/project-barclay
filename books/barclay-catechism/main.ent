@@ -1,8 +1,0 @@
-\@doanenote {1}
-macro:->\getBibleText
-{John}{3}{16}
-\@endanenote 
-\@doanenote {2}
-macro:->\getBibleText
-{IJohn}{4}{9}
-\@endanenote 
