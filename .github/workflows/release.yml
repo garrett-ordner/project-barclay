@@ -15,8 +15,8 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v4
 
-    # Step 2: Compile the LaTeX file using Docker
-    - name: Compile LaTeX file
+    # Step 2: Compile the LaTeX files using Docker
+    - name: Compile Barclay's Catechism
       run: |
         docker run --rm \
           -v ${{ github.workspace }}:/workspace \
@@ -29,16 +29,34 @@ jobs:
           texlive/texlive \
           pdflatex -interaction=nonstopmode main.tex
 
-    # Step 3: Rename the PDF
-    - name: Rename PDF
+    - name: Compile Barclay's Confession
       run: |
-        mv books/barclay-catechism/main.pdf "Barclay's Catechism Thought-for-Thought.pdf"
+        docker run --rm \
+          -v ${{ github.workspace }}:/workspace \
+          -w /workspace/books/barclay-confession \
+          texlive/texlive \
+          pdflatex -interaction=nonstopmode main.tex
+        docker run --rm \
+          -v ${{ github.workspace }}:/workspace \
+          -w /workspace/books/barclay-confession \
+          texlive/texlive \
+          pdflatex -interaction=nonstopmode main.tex
 
-    # Step 4: Create a Release and Upload the Asset
-    - name: Create Release and Upload Asset
+    # Step 3: Rename the PDFs
+    - name: Rename Barclay's Catechism PDF
+      run: |
+        mv books/barclay-catechism/main.pdf barclay-catechism-thought-for-thought.pdf
+
+    - name: Rename Barclay's Confession PDF
+      run: |
+        mv books/barclay-confession/main.pdf barclay-confession-thought-for-thought.pdf
+
+    # Step 4: Create a Release and Upload the Assets
+    - name: Create Release and Upload Assets
       uses: marvinpinto/action-automatic-releases@latest
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         prerelease: false
         files: |
-          Barclay's Catechism Thought-for-Thought.pdf
+          barclay-catechism-thought-for-thought.pdf
+          barclay-confession-thought-for-thought.pdf
