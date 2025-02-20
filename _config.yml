@@ -31,6 +31,7 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+
 destination: docs
 
 # Structure inside folder
@@ -61,7 +62,13 @@ defaults:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - bible
+  - books
+  - code
+  - data
+  - templates
+
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

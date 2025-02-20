@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Project Barclay
+permalink: /
 ---
 
 
