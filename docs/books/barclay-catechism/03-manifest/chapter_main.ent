@@ -1,0 +1,200 @@
+\@doanenote {1}
+macro:->\getBibleText
+{Deuteronomy}{18}{15}
+\@endanenote 
+\@doanenote {2}
+macro:->\getBibleText
+{Isaiah}{7}{14}
+\@endanenote 
+\@doanenote {3}
+macro:->\getBibleText
+{Micah}{5}{2}
+\@endanenote 
+\@doanenote {4}
+macro:->\getBibleText
+{John}{8}{58}
+\@endanenote 
+\@doanenote {5}
+macro:->\getBibleText
+{John}{17}{5}
+\@endanenote 
+\@doanenote {6}
+macro:->\getBibleText
+{Ephesians}{3}{9}
+\@endanenote 
+\@doanenote {7}
+macro:->\getBibleText
+{Colossians}{1}{16}
+\@endanenote 
+\@doanenote {8}
+macro:->\getBibleText
+{Hebrews}{1}{2}
+\@endanenote 
+\@doanenote {9}
+macro:->\getBibleText
+{John}{1}{1}
+\@endanenote 
+\@doanenote {10}
+macro:->\getBibleText
+{Romans}{9}{5}
+\@endanenote 
+\@doanenote {11}
+macro:->\getBibleText
+{Philippians}{2}{6}
+\@endanenote 
+\@doanenote {12}
+macro:->\getBibleText
+{IJohn}{5}{20}
+\@endanenote 
+\@doanenote {13}
+macro:->\getBibleText
+{Isaiah}{9}{6}
+\@endanenote 
+\@doanenote {14}
+macro:->\getBibleText
+{Colossians}{1}{15}
+\@endanenote 
+\@doanenote {15}
+macro:->\getBibleText
+{Hebrews}{1}{3}
+\@endanenote 
+\@doanenote {16}
+macro:->\getBibleText
+{RevelationofJohn}{19}{13}
+\@endanenote 
+\@doanenote {17}
+macro:->\getBibleText
+{Matthew}{1}{18}
+\@endanenote 
+\@doanenote {18}
+macro:->\getBibleRange
+{Luke}{1}{30}{32}
+\@endanenote 
+\@doanenote {19}
+macro:->\getBibleRange
+{Luke}{1}{34}{35}
+\@endanenote 
+\@doanenote {20}
+macro:->\getBibleText
+{Hebrews}{2}{14}
+\@endanenote 
+\@doanenote {21}
+macro:->\getBibleRange
+{Hebrews}{2}{16}{17}
+\@endanenote 
+\@doanenote {22}
+macro:->\getBibleText
+{Hebrews}{4}{15}
+\@endanenote 
+\@doanenote {23}
+macro:->\getBibleText
+{Romans}{5}{15}
+\@endanenote 
+\@doanenote {24}
+macro:->\getBibleRange
+{ICorinthians}{15}{20}{21}
+\@endanenote 
+\@doanenote {25}
+macro:->\getBibleText
+{John}{1}{14}
+\@endanenote 
+\@doanenote {26}
+macro:->\getBibleText
+{John}{3}{34}
+\@endanenote 
+\@doanenote {27}
+macro:->\getBibleText
+{Acts}{10}{38}
+\@endanenote 
+\@doanenote {28}
+macro:->\getBibleText
+{Colossians}{1}{19}
+\@endanenote 
+\@doanenote {29}
+macro:->\getBibleText
+{Colossians}{2}{9}
+\@endanenote 
+\@doanenote {30}
+macro:->\getBibleText
+{Colossians}{2}{3}
+\@endanenote 
+\@doanenote {31}
+macro:->\getBibleText
+{Romans}{8}{3}
+\@endanenote 
+\@doanenote {32}
+macro:->\getBibleText
+{IJohn}{3}{8}
+\@endanenote 
+\@doanenote {33}
+macro:->\getBibleText
+{IJohn}{3}{5}
+\@endanenote 
+\@doanenote {34}
+macro:->\getBibleRange
+{Luke}{2}{30}{32}
+\@endanenote 
+\@doanenote {35}
+macro:->\getBibleText
+{Romans}{3}{25}
+\@endanenote 
+\@doanenote {36}
+macro:->\getBibleText
+{Ephesians}{5}{2}
+\@endanenote 
+\@doanenote {37}
+macro:->\getBibleRange
+{Colossians}{1}{20}{22}
+\@endanenote 
+\@doanenote {38}
+macro:->\getBibleText
+{Hebrews}{9}{12}
+\@endanenote 
+\@doanenote {39}
+macro:->\getBibleText
+{Hebrews}{9}{14}
+\@endanenote 
+\@doanenote {40}
+macro:->\getBibleText
+{IPeter}{3}{18}
+\@endanenote 
+\@doanenote {41}
+macro:->\getBibleText
+{IJohn}{3}{16}
+\@endanenote 
+\@doanenote {42}
+macro:->\getBibleText
+{Hebrews}{9}{15}
+\@endanenote 
+\@doanenote {43}
+macro:->\getBibleText
+{RevelationofJohn}{5}{12}
+\@endanenote 
+\@doanenote {44}
+macro:->\getBibleText
+{RevelationofJohn}{13}{8}
+\@endanenote 
+\@doanenote {45}
+macro:->\getBibleRange
+{ICorinthians}{10}{1}{4}
+\@endanenote 
+\@doanenote {46}
+macro:->\getBibleText
+{IPeter}{2}{21}
+\@endanenote 
+\@doanenote {47}
+macro:->\getBibleRange
+{Colossians}{1}{23}{24}
+\@endanenote 
+\@doanenote {48}
+macro:->\getBibleRange
+{IICorinthians}{4}{10}{11}
+\@endanenote 
+\@doanenote {49}
+macro:->\getBibleText
+{IICorinthians}{5}{15}
+\@endanenote 
+\@doanenote {50}
+macro:->\getBibleText
+{Philippians}{3}{10}
+\@endanenote 

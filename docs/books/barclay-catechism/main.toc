@@ -1,0 +1,17 @@
+\contentsline {chapter}{Preface}{5}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}On God, and the Saving Knowledge of Him}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Of the Rule and Guide of Christians, and of the Scriptures}{10}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Of Jesus Christ's being manifest in the Flesh, the Use and End of it}{13}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Of the New Birth, the Inward Appearance of Christ in Spirit, and the Unity of the Saints with him}{20}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Concerning the Light wherewith Jesus Christ hath enlightened every Man; the Universality and Sufficiency of God's Grace to all the World made manifest therein.}{24}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Concerning Faith, Justification, and Works}{33}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Concerning Perfection, or Freedom from Sin}{34}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Concerning Perseverance and falling from Grace}{35}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Concerning the Church and Ministry}{36}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Concerning Worship}{37}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Concerning Baptism, and Bread and Wine}{38}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Concerning the Life of a Christian in general, what, and how it ought to be in thie World}{39}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Concerning Magistracy}{40}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Concerning the Resurrection}{41}{chapter.14}%
+\contentsline {chapter}{\numberline {15}A short Introduction to the Confession of Faith}{42}{chapter.15}%
+\contentsline {chapter}{\numberline {16}A Confession of Faith, containing Twenty Three Articles}{43}{chapter.16}%

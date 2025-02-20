@@ -1,0 +1,52 @@
+\@doanenote {1}
+macro:->\getBibleText
+{Romans}{8}{9}
+\@endanenote 
+\@doanenote {2}
+macro:->\getBibleText
+{Romans}{8}{14}
+\@endanenote 
+\@doanenote {3}
+macro:->\getBibleText
+{IJohn}{2}{27}
+\@endanenote 
+\@doanenote {4}
+macro:->\getBibleText
+{IThessalonians}{4}{9}
+\@endanenote 
+\@doanenote {5}
+macro:->\getBibleRange
+{Hebrews}{8}{10}{11}
+\@endanenote 
+\@doanenote {6}
+macro:->\getBibleText
+{John}{6}{45}
+\@endanenote 
+\@doanenote {7}
+macro:->\getBibleRange
+{John}{14}{16}{17}
+\@endanenote 
+\@doanenote {8}
+macro:->\getBibleText
+{Romans}{15}{4}
+\@endanenote 
+\@doanenote {9}
+macro:->\getBibleRange
+{IITimothy}{3}{15}{17}
+\@endanenote 
+\@doanenote {10}
+macro:->\getBibleRange
+{IIPeter}{1}{20}{21}
+\@endanenote 
+\@doanenote {11}
+macro:->\getBibleText
+{John}{5}{39}
+\@endanenote 
+\@doanenote {12}
+macro:->\getBibleRange
+{John}{5}{45}{47}
+\@endanenote 
+\@doanenote {13}
+macro:->\getBibleText
+{IIPeter}{3}{16}
+\@endanenote 

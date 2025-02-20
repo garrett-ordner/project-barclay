@@ -1,0 +1,25 @@
+\contentsline {chapter}{Preface}{5}{chapter*.2}%
+\contentsline {chapter}{A Confession of Faith, containing twenty-three Articles}{6}{chapter*.4}%
+\contentsline {section}{\numberline {0.1}Concerning God, and the True and Saving Knowledge of Him}{6}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Concerning the Guide and Rule of Christians}{6}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Concerning the Scriptures}{7}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Concerning the Divinity of Christ, and his Being from the Beginning}{7}{section.0.4}%
+\contentsline {section}{\numberline {0.5}Concerning his Appearance in the Flesh.}{7}{section.0.5}%
+\contentsline {section}{\numberline {0.6}Concerning the End and Use of that Appearance}{7}{section.0.6}%
+\contentsline {section}{\numberline {0.7}Concerning the Inward Manifestation of Christ}{8}{section.0.7}%
+\contentsline {section}{\numberline {0.8}Concerning the New Birth}{8}{section.0.8}%
+\contentsline {section}{\numberline {0.9}Concerning the Unity of the Saints with Christ}{8}{section.0.9}%
+\contentsline {section}{\numberline {0.10}Concerning the Universal Love and Grace of God to all}{9}{section.0.10}%
+\contentsline {section}{\numberline {0.11}Concerning the Light that enlightens every man}{9}{section.0.11}%
+\contentsline {section}{\numberline {0.12}Concerning Faith and Justification}{10}{section.0.12}%
+\contentsline {section}{\numberline {0.13}Concerning Good Works}{10}{section.0.13}%
+\contentsline {section}{\numberline {0.14}Concerning Perfection}{10}{section.0.14}%
+\contentsline {section}{\numberline {0.15}Concerning Perseverance and Falling from Grace}{11}{section.0.15}%
+\contentsline {section}{\numberline {0.16}Concerning the Church and Ministry}{11}{section.0.16}%
+\contentsline {section}{\numberline {0.17}Concerning Worship}{12}{section.0.17}%
+\contentsline {section}{\numberline {0.18}Concerning Baptism}{12}{section.0.18}%
+\contentsline {section}{\numberline {0.19}Concerning Eating of Bread and Wine; Washing of omne another's Feet; Abstaining from things Strangled, and from Blood; and Anointing of the Sick with Oil}{13}{section.0.19}%
+\contentsline {section}{\numberline {0.20}Concerning the Liberty of such Christians as are come to know the Substance, as to the Using, or not Using of these Rites, and of the Observation of Days}{13}{section.0.20}%
+\contentsline {section}{\numberline {0.21}Concerning Swearing, Fighting and Persecution}{14}{section.0.21}%
+\contentsline {section}{\numberline {0.22}Concerning Magistracy}{14}{section.0.22}%
+\contentsline {section}{\numberline {0.23}Concerning the Resurrection}{15}{section.0.23}%
